@@ -1,0 +1,13 @@
+{
+  "name": "ledgerly",
+  "version": "1.0.0",
+  "description": "Ledgerly: a private, offline-first life-admin app for subscriptions, bills, free trials and renewals.",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "start": "node serve.js 8080 --open",
+    "serve": "node serve.js 8080",
+    "test": "node --test tests/"
+  },
+  "engines": { "node": ">=18" }
+}
